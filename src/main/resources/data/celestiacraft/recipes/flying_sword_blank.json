@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:flint"
+    },
+    "c": {
+      "item": "minecraft:brush"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "bab",
+    "bab",
+    "cdb"
+  ],
+  "result": {
+    "item": "celestiacraft:spiritual_sword_blank"
+  }
+}

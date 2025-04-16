@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "celestiacraft:item/water_spirit_stone"
+  }
+}

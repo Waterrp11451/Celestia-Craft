@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "celestiacraft:item/spiritual_sword_blank"
+	}
+}

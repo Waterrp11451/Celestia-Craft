@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "celestiacraft:item/gold_spirit_stone"
+  }
+}
