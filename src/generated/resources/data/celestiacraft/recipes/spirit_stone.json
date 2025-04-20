@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "celestiacraft:spirit_stone_ore"
+  },
+  "result": "celestiacraft:spirit_stone"
+}

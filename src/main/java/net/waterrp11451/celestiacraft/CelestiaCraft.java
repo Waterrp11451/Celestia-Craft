@@ -9,6 +9,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.waterrp11451.celestiacraft.block.ModBlocks;
 import net.waterrp11451.celestiacraft.entity.ModEntityTypes;
+import net.waterrp11451.celestiacraft.event.ClientModEvents;
 import org.slf4j.Logger;
 
 import static net.waterrp11451.celestiacraft.item.Moditems.register;
