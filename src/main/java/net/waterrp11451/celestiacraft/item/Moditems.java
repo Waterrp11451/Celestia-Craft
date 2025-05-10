@@ -3,6 +3,8 @@ package net.waterrp11451.celestiacraft.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.waterrp11451.celestiacraft.CelestiaCraft;
@@ -27,7 +29,8 @@ public class Moditems {
     public static final Supplier<Item> spiritual_sword_item = ITEMS.register("spiritual_sword_item", spiritual_sword_item::new);
     public static final Supplier<Item> spirit_table = ITEMS.register("spirit_table",()->new BlockItem(ModBlocks.SPIRIT_TABLE.get(), new Item.Properties()));
     public static final Supplier<Item> spirit_stone_ore = ITEMS.register("spirit_stone_ore",()->new BlockItem(ModBlocks.SPIRIT_STONE_ORE.get(), new Item.Properties()));
-
+    public static final Supplier<Item> spiritual_pickaxe = ITEMS.register("spiritual_pickaxe", spiritual_pickaxe::new);
+    public static final Supplier<Item> fire_spiritual_sword_item = ITEMS.register("fire_spiritual_sword_item", fire_spiritual_sword_item::new);
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
         CREATIVE_MODE_TABS.register(eventBus);

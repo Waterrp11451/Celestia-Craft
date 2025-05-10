@@ -9,5 +9,11 @@
   "item.celestiacraft.gold_spirit_stone": "金灵石",
   "item.celestiacraft.dirt_spirit_stone": "土灵石",
   "block.celestiacraft.spirit_table": "附灵台",
-  "block.celestiacraft.spirit_stone_ore": "灵石矿石"
+  "block.celestiacraft.spirit_stone_ore": "灵石矿石",
+  "item.celestiacraft.fire_spiritual_sword_item": "火灵剑",
+  "celestiacraft.message.power_after_using": "剩余灵力:%d",
+  "celestiacraft.message.current_power": "当前灵力:%d",
+  "celestiacraft.message.not_enough_power": "灵力不足！",
+  "celestiacraft.message.add_power": "灵力恢复",
+  "item.celestiacraft.spiritual_pickaxe": "灵稿"
 }

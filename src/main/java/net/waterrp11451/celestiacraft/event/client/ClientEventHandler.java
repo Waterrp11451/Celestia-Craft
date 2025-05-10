@@ -6,9 +6,11 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.waterrp11451.celestiacraft.client.entity.FlyingSwordEntityRenderer;
 import net.waterrp11451.celestiacraft.client.model.entity.FlyingSwordModel;
 import net.waterrp11451.celestiacraft.entity.ModEntityTypes;
+import net.waterrp11451.celestiacraft.event.key.KeyBinding;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD,value = Dist.CLIENT)
 public class ClientEventHandler {
@@ -21,5 +23,9 @@ public class ClientEventHandler {
         event.enqueueWork(()->{
             EntityRenderers.register(ModEntityTypes.FLYING_SWORD_ENTITY.get(), FlyingSwordEntityRenderer::new);
         });
+    }
+    @SubscribeEvent
+    public static void onKeyRegister(RegisterKeyMappingsEvent event) {
+        event.register(KeyBinding.DRINKING_KEY);
     }
 }

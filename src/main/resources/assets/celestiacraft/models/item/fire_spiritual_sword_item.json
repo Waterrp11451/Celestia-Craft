@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "celestiacraft:item/fire_spiritual_sword_item"
+  }
+}

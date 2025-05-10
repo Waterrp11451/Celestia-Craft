@@ -32,8 +32,8 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("aaa")
                 .pattern("aba")
                 .pattern("aaa")
-                .define('a', Items.ENCHANTING_TABLE)
-                .define('b', Moditems.spirit_stone.get())
+                .define('b', Items.ENCHANTING_TABLE)
+                .define('a', Moditems.spirit_stone.get())
                 .unlockedBy("has_spirit_stone", has(Moditems.spirit_stone.get()))
                 .save(pRecipeOutput);
         // 有序合成
@@ -57,7 +57,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("aaa")
                 .pattern("aba")
                 .pattern("aaa")
-                .define('a', Items.GOLD_ORE)
+                .define('a', Items.GOLD_INGOT)
                 .define('b', Moditems.spirit_stone.get())
                 .unlockedBy("has_spirit_stone", has(Moditems.spirit_stone.get()))
                 .save(pRecipeOutput);
@@ -75,6 +75,22 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("aaa")
                 .define('a', Items.STICK)
                 .define('b', Moditems.spirit_stone.get())
+                .unlockedBy("has_spirit_stone", has(Moditems.spirit_stone.get()))
+                .save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Moditems.fire_spiritual_sword_item.get())
+                .pattern("aaa")
+                .pattern("aba")
+                .pattern("aaa")
+                .define('a', Moditems.fire_spirit_stone.get())
+                .define('b', Moditems.spiritual_sword_item.get())
+                .unlockedBy("has_spirit_stone", has(Moditems.spirit_stone.get()))
+                .save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Moditems.spiritual_pickaxe.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('b', Items.STICK)
+                .define('a', Moditems.spirit_stone.get())
                 .unlockedBy("has_spirit_stone", has(Moditems.spirit_stone.get()))
                 .save(pRecipeOutput);
         // 冶炼

@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "minecraft:enchanting_table"
+      "item": "celestiacraft:spirit_stone"
     },
     "b": {
-      "item": "celestiacraft:spirit_stone"
+      "item": "minecraft:enchanting_table"
     }
   },
   "pattern": [

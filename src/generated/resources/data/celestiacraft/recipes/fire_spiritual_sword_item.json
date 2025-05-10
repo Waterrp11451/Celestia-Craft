@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "minecraft:gold_ingot"
+      "item": "celestiacraft:fire_spirit_stone"
     },
     "b": {
-      "item": "celestiacraft:spirit_stone"
+      "item": "celestiacraft:spiritual_sword_item"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
     "aaa"
   ],
   "result": {
-    "item": "celestiacraft:gold_spirit_stone"
+    "item": "celestiacraft:fire_spiritual_sword_item"
   }
 }

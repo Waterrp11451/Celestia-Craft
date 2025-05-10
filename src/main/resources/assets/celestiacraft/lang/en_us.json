@@ -3,11 +3,17 @@
   "creative.celestia_tab": "Celestia Craft",
   "item.celestiacraft.spirit_stone": "Spirit Stone",
   "item.celestiacraft.spiritual_sword_item": "Spiritual Sword",
+  "item.celestiacraft.fire_spiritual_sword_item": "Fire Spiritual Sword",
   "item.celestiacraft.fire_spirit_stone": "Fire Spirit Stone",
   "item.celestiacraft.water_spirit_stone": "Water Spirit Stone",
   "item.celestiacraft.wood_spirit_stone": "Wood Spirit Stone",
   "item.celestiacraft.gold_spirit_stone": "Gold Spirit Stone",
   "item.celestiacraft.dirt_spirit_stone": "Dirt Spirit Stone",
+  "item.celestiacraft.spiritual_pickaxe": "Spiritual Pickaxe",
   "block.celestiacraft.spirit_table": "Spirit Table",
-  "block.celestiacraft.spirit_stone_ore": "Spirit Stone Ore"
+  "block.celestiacraft.spirit_stone_ore": "Spirit Stone Ore",
+  "celestiacraft.message.power_after_using":"Your Power After Using:%d",
+  "celestiacraft.message.current_power":"Your Current Power:%d",
+  "celestiacraft.message.not_enough_power":"Your Power Is Not Enough",
+  "celestiacraft.message.add_power": "Add Power"
 }

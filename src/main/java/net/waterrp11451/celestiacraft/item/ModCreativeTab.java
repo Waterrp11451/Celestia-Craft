@@ -15,7 +15,7 @@ public class ModCreativeTab {
     public static final Supplier<CreativeModeTab> EXAMPLE_TAB  = CREATIVE_MODE_TABS.register("celestia_tab",() -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
            .title(Component.translatable(CELESTIA_CRAFT_TAB_STRING))
-            .icon(()->Moditems.spiritual_sword_blank.get().getDefaultInstance())
+            .icon(()->Moditems.spiritual_sword_item.get().getDefaultInstance())
             .displayItems((pParameters, pOutput) -> {
         pOutput.accept(Moditems.spiritual_sword_blank.get());
         pOutput.accept(Moditems.spiritual_sword_item.get());
@@ -27,6 +27,8 @@ public class ModCreativeTab {
         pOutput.accept(Moditems.dirt_spirit_stone.get());
         pOutput.accept(Moditems.spirit_table.get());
         pOutput.accept(Moditems.spirit_stone_ore.get());
+        pOutput.accept(Moditems.spiritual_pickaxe.get());
+        pOutput.accept(Moditems.fire_spiritual_sword_item.get());
     })
             .build());
 }

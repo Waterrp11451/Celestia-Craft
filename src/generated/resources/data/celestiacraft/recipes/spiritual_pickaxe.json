@@ -3,18 +3,18 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "minecraft:gold_ingot"
+      "item": "celestiacraft:spirit_stone"
     },
     "b": {
-      "item": "celestiacraft:spirit_stone"
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
     "aaa",
-    "aba",
-    "aaa"
+    " b ",
+    " b "
   ],
   "result": {
-    "item": "celestiacraft:gold_spirit_stone"
+    "item": "celestiacraft:spiritual_pickaxe"
   }
 }
